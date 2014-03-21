@@ -19,8 +19,7 @@ namespace DataAccess.Framework
         {
             return _factory.BuildRepository<TEntity>();
         }
-
-
+		
         public void Save()
         {
             try
